@@ -1,0 +1,38 @@
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin: 30px;
+  padding: 30px;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 5px solid yellow;  
+  margin-top: 50px;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-top: solid 5px black;
+  margin-left: 40px;
+}
+/* 上側に実線・５px・黒のborderを指定 */
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-right-style: double;
+  margin-bottom: 40px;
+}
+/* 上の辺だけ二重線にする */
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-bottom: solid 5px red; 
+  margin: 1px 2px 3px 4px ;
+}
+/* 下の辺だけ色を赤にする */
