@@ -12,12 +12,31 @@ header {
 }
 
 main {
-  width: 800px; /* 横幅800px */
+  width: 960px; /* 横幅960px */
   display: flex; /* Flexboxの利用 */
   justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto; /* 要素の中央揃え */
   padding: 50px 0; /* 上下に50px、左右に0pxの内側余白 */
+}
 
+.box {
+  width: 300px;
+  margin-right: 30px; /* 領域の右側余白 */
+  background-color: #EEEEEE;
+}
+
+.box_name {
+  color: white;
+  background-color: #FF9A4B;
+}
+.box_img {
+  
+  margin: 10px;
+  background-image: url(img/flow01.png);
+}
+
+.box_title {
+  margin: 5px 0;
 }
 
 footer {
