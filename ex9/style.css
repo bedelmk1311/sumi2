@@ -14,7 +14,7 @@ header {
 main {
   width: 960px; /* 横幅960px */
   display: flex; /* Flexboxの利用 */
-    justify-content: center; /* 要素の横並び・中央寄せ */
+  justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto; /* 要素の中央揃え */
   padding: 50px 0; /* 上下に50px、左右に0pxの内側余白 */
 }
@@ -25,6 +25,10 @@ main {
   padding: 10px;
   position: relative; /* 基準となる親要素 */
   background-color: #EEEEEE;
+
+  /* 柔らかい印象になり、デザイン的に洗練される */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 /* 領域の右側余白　1番最後のcontainerは余白を設けない */
@@ -39,13 +43,22 @@ main {
   left: 0; /* 左上に寄せ */
   background-color: #ff9a4b;
   color: #fff;
+
+  /* 目立たせつつも、視認性アップ＆装飾として映える */
+  padding: 4px 10px;
+  font-size: 14px;
+  border-bottom-right-radius: 6px;
+  font-weight: bold;
 }
 
-.box_img {
+.box_img, .img1, .img2, .img3 {
   height: 150px;
   margin-bottom: 10px;
   background-size: cover;
   background-position: bottom;
+
+  /* カードと統一感が出る */
+  border-radius: 6px;
 }
 
 .img1 {
@@ -57,7 +70,6 @@ main {
 .img3 {
   background-image: url(img/flow03.png);
 }
-
 
 .box_title {
   margin: 15px 0 5px;
