@@ -126,6 +126,7 @@ main {
   color: #fff;
   font-size: 11px;
 }
+
 .pagination {
   text-align: center;
   padding-top: 50px;
@@ -141,6 +142,7 @@ main {
   border-radius: 3px;
   line-height: 30px;
 }
+
 .sidebar {
   width: 230px;
 }
@@ -222,8 +224,8 @@ footer {
 .footer-text {
   color: #fff;
 }
-/* メディアクエリはCSSの1番下に記述する */
 
+/* メディアクエリはCSSの1番下に記述する */
 /* すべての画面サイズで適用される設定 */
 .social i {
   color:black;
@@ -247,3 +249,81 @@ footer {
   }
 }
 
+/* 425px対応 */
+/* 領域がいくつか並ぶレイアウトの場合は、親要素のdisplayプロパティをflexからblockに変更 */
+/* displayで検索して比較。変更する */
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+    /* この要素は画面からなくす */
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+    /* display flexのため変更 */
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .blog-image {
+    width: 49%;
+  }
+
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+
+  .category {
+    display: none;
+    /* この要素は画面からなくす */
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+
+  .pagination {
+    margin-bottom: 50px;
+  }
+}
