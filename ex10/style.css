@@ -70,7 +70,18 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  .social i {
-    color: red;
+  .main {
+    width: 100%;
+    padding: 50px;
+    display: block;
+  }
+
+  .container {  
+    width: 90%;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .container:last-child {
+    margin-bottom: 0;
   }
 }
