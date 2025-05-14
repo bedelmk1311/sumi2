@@ -70,7 +70,8 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  .main {
+  /* コンマつけたくなる気持ちわかるがいらない! */
+  main {
     width: 100%;
     padding: 50px;
     display: block;
@@ -81,6 +82,7 @@ footer {
     margin-bottom: 20px;
     display: block;
   }
+
   .container:last-child {
     margin-bottom: 0;
   }
