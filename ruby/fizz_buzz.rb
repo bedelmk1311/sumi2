@@ -1,3 +1,5 @@
+#初回　添削前
+
 puts "FizzBuzzへようこそ!"
 puts "FizzBuzzは3で割り切れる数値を引数に渡すと、「Fizz」、
 5で割り切れる数値を引数に渡すと、「Buzz」、
