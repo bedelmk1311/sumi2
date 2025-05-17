@@ -1,14 +1,11 @@
+#解答
+
 i = 1
 puts "計算を始めます"
 puts "何回繰り返しますか？"
 n = gets.to_i
 
 while i <= n do
-  if i == n 
-    puts "すべての計算を終了します"
-    break 
-  end
-  puts "#{n}回目の計算"
   puts "２つの値を入力してください"
   x = gets.to_i
   y = gets.to_i
