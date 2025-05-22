@@ -8,6 +8,13 @@ class Car
   end
 end
 
+# 解説
+# インスタンスの作成→呼び出し
+
+# car = Car.new
+# car.run(5)
+# car.turn(右)
+
 car = Car.new
 car.run(5)
 
