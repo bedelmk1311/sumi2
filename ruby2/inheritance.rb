@@ -32,3 +32,12 @@ bus = Bus.new
 bus.run(5)
 
 # 車で5キロ走ります。
+
+
+# 継承されているか確認してみよう
+# 親クラスを調べるときは「.superclass」を使用します。
+
+puts Bus.superclass
+
+# 車で5キロ走ります。
+# Car
